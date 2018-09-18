@@ -1,0 +1,1 @@
+function [sigOpen,sigClose] = signal_1(Boll,para);

@@ -1,0 +1,10 @@
+Ori:
+L = dif_N>0 & dif_T>0;
+S = dif_N<0 & dif_T<0;
+CL = dif_N<0;
+CS = dif_N>0;
+Chg1:
+L =  noise>=movH_BF1 & dif_N>0 & dif_T>0;
+S =  noise<=movL_BF1 & dif_N<0 & dif_T<0;
+CL = dif_N<0;
+CS = dif_N>0;
